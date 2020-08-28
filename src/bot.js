@@ -15,7 +15,7 @@ client.on('ready', () => {
         if(oldMessage.content === newMessage){
             return;
         } else {
-            message.channel.send(`YOO THIS DUDE JUST EDITED HIS MESSAGE LMAOOO 😂 😂 😂 😂`);
+            message.channel.send(`~~insult~~`);
         }
      });  
   });
