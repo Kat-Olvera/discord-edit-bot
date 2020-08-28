@@ -11,7 +11,7 @@ client.on('ready', () => {
  
  client.on('message', message => {
     if (message.author.bot) return;
-    client.on('messageUpdate', (oldMessage, newMessage) => {
+    client.on('messageUpdate', (oldMessage, newMessage) => {   
         if(oldMessage.content === newMessage){
             return;
         } else {
